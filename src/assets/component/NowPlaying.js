@@ -7,8 +7,8 @@ import { useMovieDataQuery } from "../../services/get-data-movie";
 
 const NowPlaying = () => {
   const { data } = useMovieDataQuery({
-    languange: "en-us",
-    page: "PageNow",
+    // languange: "en-us",
+    // page: "PageNow",
   });
   const movie = data ? data.results : [];
 

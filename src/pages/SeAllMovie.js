@@ -4,8 +4,8 @@ import { useMovieDataQuery } from "../services/get-data-movie";
 
 export const SeAllMovie = () => {
   const { data } = useMovieDataQuery({
-    languange: "en-us",
-    page: "PageNow",
+    // languange: "en-us",
+    // page: "PageNow",
   });
 
   const movie = data ? data.results : [];

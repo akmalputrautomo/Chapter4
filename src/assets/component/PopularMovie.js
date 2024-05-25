@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export const PopularMovie = () => {
   const { data } = useMovieDataQuery({
-    languange: "en-us",
-    page: "PageNow",
+    // languange: "en-us",
+    // page: "PageNow",
   });
 
   const movie = data ? data.results : [];
